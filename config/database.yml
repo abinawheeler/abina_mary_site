@@ -56,5 +56,5 @@ production:
   database: abina_mary_site_production
   # username: abina_mary_site
   username: deploy
-  password: 'password'
+  password: password
   # password: <%= ENV["ABINA_MARY_SITE_DATABASE_PASSWORD"] %>
