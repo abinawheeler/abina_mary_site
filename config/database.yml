@@ -54,5 +54,7 @@ test:
 production:
   <<: *default
   database: abina_mary_site_production
-  username: abina_mary_site
-  password: <%= ENV["ABINA_MARY_SITE_DATABASE_PASSWORD"] %>
+  # username: abina_mary_site
+  username: deploy
+  password: 'password'
+  # password: <%= ENV["ABINA_MARY_SITE_DATABASE_PASSWORD"] %>
